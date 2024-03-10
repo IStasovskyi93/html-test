@@ -3,32 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo</title>
+    <title>Demo form</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <form action="#">
-        <div>
-            <input type="checkbox" name="agree" id="agree" />
-            <label for="agree">I agree</label>
-        </div>
-        <div>
-            <input type="radio" name="1" id="all" name="search" value="all"/>
-            <label for="all">Radio</label>
-        </div>
-        <div>
-            <input type="radio" name="2" id="you" name="search" value="youtube"/>
-            <label for="you">Radio</label>
-        </div>
-        <div>
-            <select name="topic" id="topic">
-                <option value="1">All</option>
-                <optgroup label="Often topic">
-                    <option value="2">Animals</option>
-                    <option value="3" selected>Development</option>
-                </optgroup>
-            </select>
-            <label for="topic">Theme</label>
-        </div>
-    <button type="submit">Serch on Youtube</button>
+    <main>
+        <h1>Call to me!</h1>
+        <form>
+            <div>
+                <input type="email" id="email" placeholder="E-mail" value="123@gmail.com">
+                <label for="email">E-mail</label>
+            </div>
+            <div>
+                <input type="text" id="telegram" placeholder="Telegram" value="123@gmail.com">
+                <label for="telegram">Telegram</label>
+            </div>
+            <div>
+                <select name="topic" id="topic">
+                    <option value="course">Choose courses</option>
+                </select>
+                <label for="topic">Theme</label>
+            </div>
+            <div>
+                <textarea name="text" id="textarea" cols="30" rows="10" placeholder="Comment"></textarea>
+            </div>
+            <div>
+                <button>Send</button>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
