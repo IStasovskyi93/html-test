@@ -1,3 +1,18 @@
-label {
-    color: rgb(73, 184, 30);
+main {
+    background-color: #1d1245;
 }
+label {
+    color: #c1b8e0;
+}
+h1 {
+    color: #ebe9f2;
+    font-size: 36px;
+}
+button {
+    background-color: #674ebf;
+} 
+input, textarea, select {
+    background-color: #896eeb;
+    color:antiquewhite;
+}
+
