@@ -1,0 +1,47 @@
+#heroButton {
+    background-color: rgb(41, 27, 196);
+    color: #FFFFFF;
+}
+#heroButton:hover {
+    background-color: #f59e2d;
+}
+#heroButton:active {
+    background-color: #050038;
+}
+.heroForm input:focus {
+    background-color: #48b5c3;
+}
+.link {
+    color: #f59e2d;
+    text-decoration: underline;
+}
+.link:hover {
+    color: #71e220;
+}
+h1, h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.heroText {    
+}
+.sectionText {
+}
+header a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #050038;
+    text-decoration: none;
+}
+.heroForm + p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #050038;
+}

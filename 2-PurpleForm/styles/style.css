@@ -12,8 +12,18 @@ h1 {
 }
 button {
     background-color: #674ebf;
+    color:aliceblue;
 } 
 input, textarea, select {
     background-color: #896eeb;
     color:antiquewhite;
 }
+input:invalid {
+    background: #d81212;
+}
+input:valid {
+    background: #0b7808;
+}
+/* input[type="email"] {
+    background: #b226a1;
+} */
