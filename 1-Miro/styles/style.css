@@ -45,3 +45,13 @@ header a {
     line-height: 20px;
     color: #050038;
 }
+nav ul {
+    list-style-type: none;
+}
+.sectionList {
+    list-style: none;
+    /* list-style: url('../images/Frame.svg'); */
+}
+.sectionList li::marker {
+    content: url('../images/Frame.svg');
+}
