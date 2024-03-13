@@ -28,10 +28,6 @@ p {
     font-size: 18px;
     line-height: 24px;
 }
-.heroText {    
-}
-.sectionText {
-}
 header a {
     font-weight: 400;
     font-size: 16px;
@@ -55,11 +51,11 @@ nav ul {
 .sectionList li::marker {
     content: url('../images/Frame.svg');
 }
-.experimentRed {
-    background: red;
-}
 .experimentBlue {
     background: blue;
+}
+.experimentRed {
+    background: rgb(255, 238, 0);
 }
 div {
     background: #f59e2d;
